@@ -1,6 +1,7 @@
 # turbo-octo-journey
 # Customer Management Portal with React Query, OAuth2 Authentication, and Java Spring Boot
 
+Video Link of Project at my channel CodeCraft with Arthraj: [Customer Management Portal](https://youtu.be/4iVpL00E2OM)
 Welcome to the Customer Management Portal project! This repository contains a comprehensive example of building a secure and efficient Customer Management Portal using React, React Query for API calls, Java Spring Boot, and OAuth2 authentication.
 
 ## Project Overview
@@ -12,8 +13,7 @@ This project demonstrates the implementation of a Customer Management Portal wit
 - **Java Spring Boot Backend**: Create RESTful APIs and establish secure communication between the frontend and backend.
 - **OAuth2 Authentication**: Implement secure user authentication using OAuth2 and manage Bearer Tokens stored in session storage.
 
-## Screenshots and Video Link
-Video Link of Project: [CodeCraft with Arthraj](https://youtu.be/4iVpL00E2OM)
+## Screenshots
 <img width="1470" alt="Screenshot 2023-08-06 at 7 54 41 PM" src="https://github.com/Arthraj/turbo-octo-journey/assets/64681770/04fe3f07-b714-4354-8858-06a822447ce2">
 <img width="1470" alt="Screenshot 2023-08-06 at 7 57 47 PM" src="https://github.com/Arthraj/turbo-octo-journey/assets/64681770/432503f6-345b-4463-9cfd-ad39606003cc">
 <img width="1470" alt="Screenshot 2023-08-06 at 7 55 08 PM" src="https://github.com/Arthraj/turbo-octo-journey/assets/64681770/c4c65a4a-b7da-46a5-a077-12e71b65d76b">
