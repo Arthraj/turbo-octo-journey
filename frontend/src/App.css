@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+thead tr {
+  background-color: #009879;
+  color: #000000;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 12px 15px;
+}
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+button {
+  width: 140px;
+  height: 45px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.addCustomer {
+  color: #2caef9;
+  width: 200px;
+  margin-left: 200px;
+  border: 1px solid #2caef9;
+}
+.addCustomer:hover {
+  background-color: #2caef9;
+  box-shadow: 0px 8px 30px #2caef9;
+}
+.logoutbtn {
+  float: right;
+  width: 200px;
+  color: #ca3535;
+  border: 1px solid #ca3535;
+}
+
+.logoutbtn:hover {
+  background-color: #ca3535;
+  box-shadow: 0px 8px 30px #ca3535;
+}
+
+.update {
+  width: 90px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.update:hover {
+  background-color: #2caef9;
+}
+.delete {
+  width: 90px;
+  height: 30px;
+}
+.delete:hover {
+  background-color: #ca3535;
+}
+button:hover {
+  background-color: #40cd90;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+form {
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+  background: white;
+  border: 0 none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 10%;
+  position: relative;
+}
+/*Hide all except first fieldset*/
+
+/*inputs*/
+form input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #000000;
+  font-size: 13px;
+}
+
+.addnewform {
+  margin: 20px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
